@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @dog.nombre %>
+</p>
+
+<p>
+  <strong>Raza:</strong>
+  <%= @dog.raza %>
+</p>
+
+<p>
+  <strong>Peso:</strong>
+  <%= @dog.peso %>
+</p>
+
+<%= link_to 'Edit', edit_dog_path(@dog) %> |
+<%= link_to 'Back', dogs_path %>
